@@ -1,0 +1,6 @@
+.vscode/**
+.vs/**
+Libs/**
+SafeMenus/bin/**
+SafeMenus/obj/**
+SafeMenus/Properties/**
