@@ -16,5 +16,7 @@ Creates a config file in `BepInEx/config` on first load. Configurable options in
 - Force client options for servers
 
 ## Changelog
+### 1.0.1
+- Added missing submodule
 ### 1.0.0
 - Initial release. Split from [BetterCommandMenu](https://thunderstore.io/package/mries92/BetterCommandMenu/).

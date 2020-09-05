@@ -1,13 +1,15 @@
 ﻿using BepInEx;
 using R2API.Networking;
 using R2API.Networking.Interfaces;
+using R2API.Utils;
 using RoR2;
 using System;
 
 namespace SafeMenus
 {
-    [BepInPlugin(modGuid, "SafeMenus", "1.0.0")]
+    [BepInPlugin(modGuid, "SafeMenus", "1.0.1")]
     [BepInProcess("Risk of Rain 2.exe")]
+    [R2APISubmoduleDependency(nameof(NetworkingAPI))]
     public class SafeMenus : BaseUnityPlugin
     {
         public const short buffMessageId = 7296;
